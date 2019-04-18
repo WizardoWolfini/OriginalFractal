@@ -8,7 +8,6 @@ public void setup() {
     createHex(newx, newy, 1);
   }
   createHex(600, 600, 0);
-  println("done");
   int num = 0;
   for (Integer[] intarr : coordsused) {
     HexPoints.add(new Hexagon_Locations(intarr[0], intarr[1]));

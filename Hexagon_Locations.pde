@@ -33,7 +33,6 @@ class Hexagon_Locations {
         vertex(newx, newy);
       }
       endShape();
-      println("yay");
     }
   }
   public int getX() {
